@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - docker
+      - v1.1
 jobs:
   dockerfile:
     env:
